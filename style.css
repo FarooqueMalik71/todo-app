@@ -1,0 +1,138 @@
+body {
+    background-color: 	#787878;
+    
+    font-family: 'Montserrat', sans-serif;
+
+
+text-align: center;
+
+display: flex;
+justify-content: center;
+margin-top: 10px;
+ 
+}
+
+.contenur {
+    max-width: 575px;
+    background-color: lightgray;
+    width: 350px;
+    height: 100%;
+    border-radius: 75px;
+    box-shadow: -8px -8px 5px -8px rgba(255, 255, 255, 0.9),
+      8px 8px 20px 0 rgba(0, 0, 0, 0.3);
+    
+    padding: 32px 16px;
+    flex-direction: column;  
+
+}
+.cl{
+    color: red;
+}
+.time{
+    text-decoration: overline;
+    font-weight: normal;
+}
+
+
+.head{
+    text-align: center;
+background: lightgrey;
+border-bottom: 40%;
+box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
+7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+justify-content: center;
+display: flex;
+font-size: 40px;
+padding: 8px;
+margin:  10px;
+margin-top: 70px;
+height: 50px; 
+}
+
+.input{
+    margin-top: 50px;
+    width: 250px;
+    height: 25px;
+}
+
+ .ol{
+     display: flex;
+     justify-content: center;
+     /* margin-left: 50px; */
+     padding: 10px
+ }   
+    
+
+
+
+.li{
+  width: 75%;  
+    
+
+margin: 10px 15px 10px 0px;
+text-align: center;
+padding: 8px 5px 8px 5px;
+font-weight: bold;
+
+}
+
+.deletAlll{
+    
+
+  margin: 50px 0 0 25px ;
+  width: 90px;
+  height: 27px;
+
+background-color:black;
+
+color: red;
+font-weight: bolder;
+
+
+
+
+
+
+box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
+7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+transition: 0.2s;
+
+
+}
+.addbtn{
+background-color:black;
+    color: blanchedalmond;
+    margin-left: 10px;
+    width: 90px;
+    height: 27px;
+    box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
+   
+}
+
+
+.btn{
+    background-color:black;
+
+    color:red;
+    margin-left: 85%;
+    width: 100px;
+   text-size-adjust: 25px;
+   margin-top: 20px;
+   box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0.9),
+   7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+   transition: 0.2s;
+}
+
+.editbtn{
+    background-color:black;
+    color: blanchedalmond;
+    margin-top: 10px;
+    margin-left: 85%;
+    width: 100px;
+    box-shadow: -5px -5px 20px 0 rgba(255, 255, 255, 0.9),
+7px 7px 20px 0 rgba(0, 0, 0, 0.3);
+transition: 0.2s;
+}
+
